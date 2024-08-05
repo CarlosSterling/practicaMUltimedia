@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<!-- Se coloca el contenido que el usuario va a ver en la página-->
+
+<header>
+    <!-- Se utiliza para indicar que esta será la parte del cabezote web-->
+
+
+    <nav> <!--Define una sección de navegación dentro de un documento. Generalmente, contiene enlaces de navegación a otras páginas o partes del sitio. --></nav>
+
+    <section> <!--Representa una sección genérica de contenido, utilizada para agrupar contenido temáticamente relacionado.--></section>
+
+    <aside><!--Define contenido aparte del contenido principal, como barras laterales, cuadros de información adicionales o contenido relacionado--></aside>
+
+    <article><!-- Representa contenido independiente y autónomo, como una entrada de blog, un artículo de noticias, un comentario, etc.--></article>
+
+    <h1> </h1>al <h6></h6>: <!--Representan diferentes niveles de encabezados, con <h1> siendo el más importante y <h6> el menos importante. Se utilizan para estructurar el contenido y mejorar la accesibilidad y la SEO.</h6></h1>-->
+       
+
+<p><!--Define un párrafo de texto.--></p>      
+<b> <!--Aplica negrita al texto, pero sin impartir ninguna importancia semántica adicional-->.</b>
+<strong><!--Enfatiza un texto--></strong>
+<br> <!--Genera unsalto de linea-->        
+<hr> <!-- Inserta una línea horizontal, generalmente utilizada para separar contenido.-->
+<a href="#"> Vinculo</a> <!-- Define un hipervínculo. El atributo href especifica la URL de destino del enlace. En este caso, # es un marcador de posición que no dirige a ninguna parte específica.-->
+
+<figure>
+<img src="/Asset/img/LogoSena_Verde.png">
+</figure>
+<figcaption>Se utiliza para colocar un pie de página a la imagen</figcaption>
+
+<ol>Lista ordenada</ol>
+<ul>Lista no ordenada</ul>
+
+<table><!--Permite crear tablas ordenadas--></table>
+<tr><!--se utiliza para definir una fila en una tabla.--></tr>
+<th><!--se utiliza para definir una celda de encabezado en una tabla. Estas celdas se colocan generalmente en la primera fila de la tabla.--></th>
+<td><!---e utiliza para definir una celda de datos en una tabla.--></td>
+
+<table border="1">
+    <thead> <!--Etiquetas auxiliares-->
+    <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Genero</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>Carlos</td>
+        <td>30</td>
+        <td>Masculino</td>
+    </tr>
+    <tr>
+        <td>María</td>
+        <td>25</td>
+    </tr>
+</tbody>
+
+<table>
+
+    <colgroup>
+    <col style="background-color: rgb (218,218,218);">
+    <col style="background-color: rgb #f2f2f2;">
+    <col style="background-color: rgb #f2f2f2;">
+</colgroup>
+
+<tr>
+    <th>&nbsp </th>
+    <th></th>
+    <th>Carlos</th>
+    <th>Su Nombre</th>
+    <th>Nombre de un compañero</th>
+</tr>
+<tr>
+    <td>Edad</td>
+    <td>32</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+<td>Sexo</td>
+<td>Masculino</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+    <td>Resultado</td>
+    <td>HTMl</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+    <td>Notas</td>
+<td>5.o</td>
+<td></td>
+</tr>
+</table>
+
+
+</table>
+
+<meter> <!-- se utiliza para representar visualmente una medida en un rango conocido.--></meter>
+
+<h2>Uso de la etiqueta meter</h2>
+    
+    <p>Carlos: <meter value="96" min="0" max="100" high="90"></meter></p>
+    <p>Andrés: <meter value="90" min="0" max="100" high="90"></meter></p>
+    <p>Alaia: <meter value="85" min="0" max="100" high="90"></meter></p>
+    <p>Alexandra: <meter value="86" min="0" max="100" high="90"></meter></p>
+</header>
+
+<h2>Uso de la etiqueta progress</h2>
+
+<p>Enero: <progress value="96" min="0" max="100"></progress></p>
+<p>Febrero: <progress value="86" min="0" max="100"></progress></p>
+<p>Marzo: <progress value="76" min="0" max="100"></progress></p>
+
+<!--Se utiliza para insertar un audio en el sitio we-->
+<audio autoplay controls loop preload=" auto">
+    <!--Formatos más utilizados en audiso de sitios web
+    
+    Ogg vorbis
+    Mp3
+    wav formato sin compresion, consumen mucho ancho de banda
+    acc formato de gran comprension, sin perder calidad. Se hizo para reemplazar al mp3-->
+
+    <audio src="/Asset/audio/#">audio</audio>
+
+</audio>
+<video>
+
+    <!--<video autoplay controls loop width="500" height="200"></audio>-->
+
+        <source src="/Asset/video/#" type="video/mp4">
+
+        <!--Entradas de video que soporta el sitio
+        Theora oGG
+        MP$
+        WEMB-->
+
+</video>
+
+<!--<iframe>Insertar documentos en linea html. (video, mapa, reproductor de seonido )</iframe>-->
+
+<iframe width ="500" height="200" src="https://www.youtube.com/embed/Zr4P3U4J6to" frameborder="0" allowfullscreen></iframe>
+
+<footer>Indica el pie de pagina</footer>
+    
+</body>
+</html>
