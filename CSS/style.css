@@ -1,26 +1,118 @@
-.table {
+table {
     width: 100%;
     border-collapse: collapse;
 }
 
-.table th, .table td {
+table th,
+table td {
     border: 1px solid #ddd;
     padding: 8px;
 }
 
-.table th {
-    background-color: #4CAF50;
-    color: white;
+table th {
+    background-color: #52c856;
+    color: rgb(249, 246, 246);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
 }
 
-.table tr:nth-child(even) {
+table tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-.table tr:hover {
+table tr:hover {
     background-color: #ddd;
 }
 
-.table th, .table td {
+table th,
+table td {
     text-align: left;
+}
+
+
+.ejemplo{
+    list-style-type: none;
+}
+
+.ejemplo li::before {
+    content: "✓"; /* Aquí puedes poner cualquier carácter o símbolo */
+    color: rgb(118, 191, 15); /* Color del símbolo */
+    margin-right: 10px; /* Espacio entre el símbolo y el texto */
+}
+
+.hija{
+    list-style-type: none;
+}
+
+.hija li::before {
+    content: "*"; /* Aquí puedes poner cualquier carácter o símbolo */
+    color: rgb(70, 115, 191); /* Color del símbolo */
+    margin-right: 10px; /* Espacio entre el símbolo y el texto */
+}
+
+
+.contenedor {
+    background-color: lightblue;
+    padding: 20px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.otrocontenedor{
+    background-color: #7dafef;
+    padding: 50px;
+    border-radius: 15px;
+    border: 0.5px solid rgb(8, 8, 8) ;
+}
+.grupo {
+    background-color: rgb(10, 10, 9);
+    padding: 50px;
+    border: 10px solid rgb(90, 92, 88);
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
+}
+.caja1, .caja2, .caja3 {
+    width: 200px;
+    height: 170px;
+    background-color: rgb(236, 241, 236);
+    border: #090909;
+}
+
+.columna {
+    flex: 1;
+    padding: 5px;
+}
+.tarjeta {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+body {
+    background-image: url('/Asset/img/fondo.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-attachment: fixed;
+}
+
+.contenedortabla1 {
+    background-color: rgb(243, 10, 10);
+    padding: 20px;
+    border: 1px solid rgb(242, 242, 247);
+    display: flex;
+    justify-content: space-around;
+}
+.contenedortabla2 {
+    background-color: rgb(20, 9, 229);
+    padding: 20px;
+    border: 1px solid rgb(237, 237, 239);
+    display: flex;
+    justify-content: space-around;
 }

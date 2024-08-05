@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+        .ejemplo{
+               list-style-type: none;
+           }
+           
+           .ejemplo li::before {
+               content: "✓"; 
+               color: rgb(118, 191, 15); 
+               margin-right: 10px; 
+           }
+   
+           .hija{
+               list-style-type: none;
+           }
+   
+           .hija li::before {
+               content: "A"; 
+               color: rgb(188, 25, 180); 
+               margin-right: 10px; /
+           }
+   
+   </style>
+    <ol class="ejemplo">
+        <li>Nombre</li>
+        <li>Apellido</li>
+        <li>Edad</li>
+        <li>Genero</li>
+        <ul class="hija">
+            <li>Masculino</li>
+            <li>Femenino</li>
+            <li>Otro</li>
+        </ul>
+        <li>Teléfono</li>
+            <li>Email</li>
+        <ol>  
+        </ol>
+    </ol>
+
+
+
+
+</body>
+
+</html>
